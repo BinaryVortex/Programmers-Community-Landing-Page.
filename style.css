@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Rubik+Moonrocks&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.85), rgba(0,0,0,0.85)), url(bg.jpg);
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+    padding-right: 5%;
+    padding-left: 3%;
+}
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    width: 50px;
+    margin-top: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+h3 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 30px;
+    margin-top: 5px;
+}
+nav {
+    flex: 1;
+    padding-left: 550px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+nav ul li a:hover {
+    color: #ff0063;
+}
+.content {
+    width: 100%;
+    top: 45%;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    transform: translateY(-50%);
+}
+.text {
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 100px;
+    display: flex;
+    text-align: left;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: .1em;
+    margin-top: 40px;
+}
+.btn {
+    background: linear-gradient(to right, transparent 50%, #ff0063 50%);
+    background-size: 200% auto;
+    background-position: left;
+    margin-top: 70px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 15px 45px;
+    color: #fff;
+    outline: none;
+    border: 2px solid #ff0063;
+    font-weight: 700;
+    border-radius: 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 3px 8px 22px rgba(22,21,21.15);
+    transition: background-position .5s;
+}
+.btn:hover {
+    background-position: right;
+    color: #1b1b1b;
+}
+.slider {
+    color: #ff0063;
+    margin-left: 14px;
+    box-sizing: border-box;
+    animation: slider 6s linear infinite;
+}
+@keyframes slider {
+    0% {
+        margin-top: -320px;
+    }
+    5% {
+        margin-top: -160px;
+    }
+    30% {
+        margin-top: -160px;
+    }
+    35% {
+        margin-top: 0px;
+    }
+    65% {
+        margin-top: 0px;
+    }
+    70% {
+       margin-top: 160px;
+    }
+    100% {
+        margin-top: 160px;
+    }
+}
