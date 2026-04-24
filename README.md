@@ -1,83 +1,53 @@
-# Programmers Community Landing Page
+# Programmers Community — Landing Page
 
-Programmers Community Landing Page built using HTML and CSS.
+A clean, responsive landing page for a "Programmers Community" built with plain HTML and CSS.
 
-![Landing Page Screenshot](./Screenshot 2024-11-13 072742.png)
+<!-- Screenshot: if you keep the image file at the repository root, this relative path will show it.
+     Note: the filename contains spaces — if it doesn't render, rename the file to remove spaces or use the encoded path below. -->
+
+![Landing Page Screenshot](./Screenshot%202024-11-13%20072742.png)
+
+Preview link (raw file):
+https://github.com/BinaryVortex/Programmers-Community-Landing-Page./blob/main/Screenshot%202024-11-13%20072742.png
+
+---
 
 ## Table of Contents
+
 - [About](#about)
 - [Features](#features)
 - [Preview](#preview)
 - [Getting Started](#getting-started)
 - [Project Structure](#project-structure)
 - [Customization](#customization)
+- [Accessibility & Responsiveness](#accessibility--responsiveness)
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
 ## About
 
-This repository contains a simple, responsive landing page for a "Programmers Community" built with plain HTML and CSS. It is designed as a static site that can be used as a personal or community project landing page, a portfolio piece, or a template to extend.
+This repository contains a static landing page template for a programmers community. It's intentionally lightweight (no JS frameworks) and built using semantic HTML and CSS so it can be easily adapted, deployed, or used as a portfolio piece.
 
 ## Features
 
-- Clean, modern landing page layout
-- Responsive design using CSS (no frameworks)
-- Simple navigation and hero section
-- Sections for features, about, and call-to-action
+- Clean, modern hero and call-to-action sections
+- Responsive layout using CSS (no external frameworks)
+- Simple, easily editable structure
+- Ready to deploy as a static site (GitHub Pages, Netlify, Vercel, etc.)
 
 ## Preview
 
-See the screenshot above to get a quick idea of the design. To view the live layout, open `index.html` in your browser.
+The screenshot above shows the landing page design. To preview the live page locally, open `index.html` in your browser or serve the repository with a simple HTTP server.
+
+If the screenshot doesn't render in the README due to the spaces in the filename, either:
+- Rename the file to something without spaces (recommended): `screenshot.png` and update the path in the README; or
+- Use the encoded path in Markdown: `![Landing Page Screenshot](./Screenshot%202024-11-13%20072742.png)` (already used above).
 
 ## Getting Started
 
-To preview the project locally:
-
-Option 1 — Open directly:
-1. Clone the repository.
-2. Open `index.html` in your web browser.
-
-Option 2 — Serve with a simple HTTP server (recommended for correct asset loading):
-
-Using Python 3:
+Clone the repository:
 
 ```bash
-# From the repository root
-python -m http.server 8000
-# Then open http://localhost:8000 in your browser
-```
-
-Or using Node (http-server):
-
-```bash
-npm install -g http-server
-http-server -p 8000
-# Then open http://localhost:8000
-```
-
-## Project Structure
-
-- `index.html` — main landing page
-- `styles/` or `.css` files — styling for the page
-- `assets/` — images, icons, and other media (screenshot file included in repo)
-
-(Adjust names if your repo uses a different structure.)
-
-## Customization
-
-- Edit `index.html` to change text, sections, or structure.
-- Update the CSS files to change colors, spacing, fonts, and layout.
-- Replace the screenshot and other media in the `assets` folder with your own images.
-
-## Contributing
-
-Contributions are welcome! If you want to improve the landing page, please open an issue or submit a pull request with your changes — e.g., accessibility improvements, responsive fixes, or additional sections.
-
-## License
-
-This project is open source — add a license (e.g., MIT) if you want to specify terms.
-
-## Contact
-
-Created by BinaryVortex. For questions or suggestions, open an issue in this repository.
+git clone https://github.com/BinaryVortex/Programmers-Community-Landing-Page..git
+cd Programmers-Community-Landing-Page.
