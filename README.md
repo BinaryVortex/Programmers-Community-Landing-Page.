@@ -7,9 +7,6 @@ A clean, responsive landing page for a "Programmers Community" built with plain 
 
 ![Landing Page Screenshot](./Screenshot%202024-11-13%20072742.png)
 
-Preview link (raw file):
-https://github.com/BinaryVortex/Programmers-Community-Landing-Page./blob/main/Screenshot%202024-11-13%20072742.png
-
 ---
 
 ## Table of Contents
